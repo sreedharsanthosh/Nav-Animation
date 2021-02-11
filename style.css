@@ -1,0 +1,51 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+nav{
+	display: flex;
+}
+
+.main-img{
+	position: absolute;
+	top: 0vh;
+	width: 100%;
+	max-height: 100vh;
+}
+
+.nav-links{
+	display: flex;
+	z-index: 2;
+	margin-top: 20px;
+}
+
+.nav-links li{
+	list-style: none;	
+	margin-left: 200px;
+	font-size: 20px;
+}
+
+.main-text{
+	z-index: 2;
+	position: absolute;
+	top: 50vh;
+	left: 38%;
+}
+
+.animating-line{
+	position: absolute;
+	top: 10vh;
+	left: 0vh;
+}
+
+.nav-line{
+	position: absolute;
+	top: 12vh;
+	left: 0vh;
+	width: 100%;
+	height: 1vh;
+	background-color: black;
+	transform: translateX(-1300px);
+}
