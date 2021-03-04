@@ -37,7 +37,7 @@ nav{
 .animating-line{
 	position: absolute;
 	top: 10vh;
-	left: 0vh;
+	left: -30vh;
 }
 
 .nav-line{
